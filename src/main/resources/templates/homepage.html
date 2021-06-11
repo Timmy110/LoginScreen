@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">>
 <body>
 <h1> HomePage </h1>
+<h3 th:inline="text">Welcome [[${#httpServletRequest.remoteUser}]]</h3>
 <form th:action="@{/logout}" method="post">
     <input type="submit" value="Logout"/>
 </form>
