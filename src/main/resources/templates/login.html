@@ -10,9 +10,6 @@
 </head>
 <body>
 <div class="container-fluid text-center">
-    <!--<div>
-        <img class="img-fluid" th:src="@{/images/logo.png}" />
-    </div>-->
     <form th:action="@{/doLogin}" method="post" style="max-width: 350px; margin: 0 auto;">
 
         <div th:if="${param.error}">
@@ -21,6 +18,10 @@
 
         <div th:if="${param.logout}">
             <p class="text-warning">You have been logged out.</p>
+        </div>
+
+        <div th:if="${param.register}">
+            <p class="text-warning">You have been successfully registered.</p>
         </div>
 
         <div class="border border-secondary p-3 rounded">
@@ -39,6 +40,7 @@
             </p>
         </div>
     </form>
+    <a th:href="@{register}">Sign up</a>
 </div>
 </body>
 </html>
