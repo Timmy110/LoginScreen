@@ -1,7 +1,7 @@
 package com.example.LoginScreen.controller;
 
-import com.example.LoginScreen.User;
-import com.example.LoginScreen.UserRepository;
+import com.example.LoginScreen.user.User;
+import com.example.LoginScreen.user.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AnonymousAuthenticationToken;
 import org.springframework.security.core.Authentication;

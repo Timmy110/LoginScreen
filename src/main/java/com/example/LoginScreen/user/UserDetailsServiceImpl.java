@@ -1,4 +1,4 @@
-package com.example.LoginScreen;
+package com.example.LoginScreen.user;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;

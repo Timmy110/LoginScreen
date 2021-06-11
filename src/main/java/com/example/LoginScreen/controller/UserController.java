@@ -1,7 +1,7 @@
 package com.example.LoginScreen.controller;
 
-import com.example.LoginScreen.User;
-import com.example.LoginScreen.UserRepository;
+import com.example.LoginScreen.user.User;
+import com.example.LoginScreen.user.UserRepository;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

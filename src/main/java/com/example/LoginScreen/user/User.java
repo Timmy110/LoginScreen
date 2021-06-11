@@ -1,4 +1,4 @@
-package com.example.LoginScreen;
+package com.example.LoginScreen.user;
 
 
 import javax.persistence.Entity;

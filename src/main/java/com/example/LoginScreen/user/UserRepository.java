@@ -1,4 +1,4 @@
-package com.example.LoginScreen;
+package com.example.LoginScreen.user;
 
 import org.springframework.data.repository.CrudRepository;
 

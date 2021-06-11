@@ -1,5 +1,8 @@
-package com.example.LoginScreen;
+package com.example.LoginScreen.config;
 
+import com.example.LoginScreen.user.User;
+import com.example.LoginScreen.user.UserDetailsServiceImpl;
+import com.example.LoginScreen.user.UserRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
